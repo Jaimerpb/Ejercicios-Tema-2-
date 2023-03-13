@@ -32,6 +32,27 @@ class punto:
     def distancia(self,punto):
         distancia = math.sqrt((punto.x-self.x)**2+(punto.y-self.y)**2)
         return f"La distancia entre {self} y {punto} es {distancia}"
+
+class rectangulo():
+    def __init__(self,ptoinicial=punto(),ptofinal=punto())
+        self.ptoincial=ptoinicial
+        self.ptofinal=ptofinal
+    
+    @staticmethod 
+    def base(self):
+        return abs(self.ptofinal.x-self.ptoincial.x)
+    
+    @staticmethod 
+    def altura(self):
+        return abs(self.ptofinal.y-self.ptoincial.y)
+    
+    @staticmethod 
+
+    def area(self):
+        return self.base()*self.altura()
+    
+
+    
     
 
 
