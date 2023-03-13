@@ -4,8 +4,8 @@ class punto:
     def __init__(self,x,y):
         self.x=x
         self.y=y
-    def __str__(self):
-        return "({0},{1})".format(self.x,self.y)
+    def constructor(self)
+        return f"({self.x},{self.y})"
 
     @staticmethod 
     def cuadrante(self):
